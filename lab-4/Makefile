@@ -1,6 +1,6 @@
 CC=gcc
 
-all: genkeys encrypt decrypt
+all: genkeys modexp
 
 genkeys: genkeys.c
 	${CC} -o genkeys genkeys.c -lcrypto
